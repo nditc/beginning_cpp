@@ -28,7 +28,8 @@ int main() {
 
     /* Other variables can be `float`, `double`, `char` etc */
 
-    char a_character = 'a';
+    char a_character = 'a'; // btw we can `declare` the variable and `assign` the value in a single line
+
     printf("`a_character` is %c\n", a_character); // notice we changed %d to %c for a different data type!
 
     float pi = 3.1416;
