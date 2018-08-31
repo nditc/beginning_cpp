@@ -27,6 +27,15 @@ int main() {
     cout << x == x;  //this will return true and as the cout prints the return value this 
                      //statement will print 1 (because 1 represents true and 0 reopresents false)
     
+    if(12){
+        cout << "12 means true :D";  // this line gets printed because anything other than 0 is treated as true
+                                     // you will learn more about this in typecasting
+    }
+    
+    if(0){
+        cout << "only 0 means false";
+    }
+    
     if (x > 0) {
         cout << "`x` is positive" << endl;
     }
