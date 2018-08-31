@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 int main() {
     // Variables are like bucket
@@ -12,6 +14,7 @@ int main() {
     // x is a variable
     // x has a data type of `int` meaning it can only hold integer numbers!
     // but w8 it doesn't have any data!
+
     x = 10;
     // now `x` has some data!
     // u can `declare` a variable like we did in line 11 without giving it any data
@@ -19,21 +22,23 @@ int main() {
     // so now whenever we write `x` in our code it will represent 10
     // until ofcourse we change that
 
-    printf("x is %d\n", x);
+    cout << "x is " << x << endl;
 
     // now we are gonna change x to 20
     x = 20;
 
-    printf("x is now %d\n", x);
+    cout << "x is now " << x << endl;
 
     /* Other variables can be `float`, `double`, `char` etc */
 
-    char a_character = 'a'; // btw we can `declare` the variable and `assign` the value in a single line
+    char a_character = 'a';
+    // btw we can `declare` the variable and `assign` the value in a single line
 
-    printf("`a_character` is %c\n", a_character); // notice we changed %d to %c for a different data type!
+    cout << "`a_character` is " << a_character << endl;
 
     float pi = 3.1416;
-    printf("`pi` is %f\n", pi); // as for floats we use %f
+
+    cout << "`pi` is " << pi << endl;;
 
     return 0;
 }
