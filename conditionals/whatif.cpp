@@ -9,7 +9,24 @@ int main() {
 
     int x;
     cin >> x;
-
+    
+    if(True){
+        cout << "it was true" << "\n"; // "\n" represents a line break. endl also does the same thing
+    }
+    
+    if(False){
+        cout << "it was false" << endl;  //this line will not get printed
+    }
+    // what "if(..expression..){..statement..}" does is it check if the statement inside the parentheses 
+    // returns a true or false value. if it returns false the statements inside the 
+    // second bracket(everything inside the second bracket is called 'if body') wont get executed. 
+    
+    // in case you didn't know that "x > 0" actually returns something. 
+    // these operators are like boolean type functions that return a true or false value
+    
+    cout << x == x;  //this will return true and as the cout prints the return value this 
+                     //statement will print 1 (because 1 represents true and 0 reopresents false)
+    
     if (x > 0) {
         cout << "`x` is positive" << endl;
     }
