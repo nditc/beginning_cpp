@@ -5,13 +5,13 @@ using namespace std;
 int main(){
     char a = 'c';
     // a char or character is actually just a 8bit number that represents a character
-    // according the ASCII standard each number in the range 0-255 represents an 
+    // according the ASCII standard each number in the range 0-255 represents an
     // unique character or letter.
-    
+
     // we can check the ascii value of the character stored in variable a by this
     cout << "actual character - " << a << "  ascii value - " << (int)a;
     // here (int) converts a char data type to int data type hence revealing the ascii value of the char
-    
+
     /*
     '5' has the int value 53
     there is a trick that you can use to convert characters to numbers
@@ -54,7 +54,7 @@ int main(){
      30  RS  (record separator)          62  >         94  ^        126  ~
      31  US  (unit separator)            63  ?         95  _        127  DEL
     */
-    
+
     // there is another cool thing that you might want to see
     // you can actually print all of the 27 characters using just a loop
     // like this
@@ -62,5 +62,5 @@ int main(){
         cout << (char)i << " ";
     }
     // here we took the integer value and converted it to the char representative of that value
-    
+
 }

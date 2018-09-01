@@ -6,6 +6,8 @@
 // does. your code can still run if you don't include this library but you wont be able
 // to show anything on the screen if you include this library.
 
+using namespace std;
+
 int main(){
     cout << "this was a stream of characters" << " adding some more CHARs to the stream";
     // cout is a stream object(it is defined in the iostream library) that takes characters

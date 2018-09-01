@@ -26,7 +26,7 @@ int main()
     bool divisible_by_5 = (number % 5 == 0);
 
     bool divisible_by_3_and_5 = divisible_by_3 && divisible_by_5;
-    
+
     // '||' is a logical OR operator. it returns true if any of the expressions at its right side and
     // left side is true(here anything other that 0 means true)
     bool divisible_by_3_or_5 = divisible_by_3 || divisible_by_5;
@@ -39,8 +39,8 @@ int main()
     // '&&' is a logical OR operator. it returns true if both expressions at its right side and
     // left side is true(here anything other that 0 means true)
     bool not_divisible_by_3_nor_5 = !(divisible_by_3 && divisible_by_5);
-    
-    cout << divisible_by_3 << ' ' 
+
+    cout << divisible_by_3 << ' '
          << divisible_by_5 << ' '
          << divisible_by_3_and_5 << ' '
          << not_divisible_by_5 << ' '
